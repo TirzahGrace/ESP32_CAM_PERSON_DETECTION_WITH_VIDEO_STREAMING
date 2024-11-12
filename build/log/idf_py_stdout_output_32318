@@ -1,0 +1,249 @@
+person score:73 no person score 233
+[0;32mI (21195) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (21195) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (21205) cam_hal: cam init ok[0m
+[0;32mI (21205) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (21205) sccb: sccb_i2c_port=1[0m
+[0;32mI (21215) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (21255) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (21255) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:74 no person score 233
+[0;32mI (21965) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (21965) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (21975) cam_hal: cam init ok[0m
+[0;32mI (21975) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (21975) sccb: sccb_i2c_port=1[0m
+[0;32mI (21985) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (22025) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (22025) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:76 no person score 232
+[0;32mI (22735) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (22735) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (22745) cam_hal: cam init ok[0m
+[0;32mI (22745) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (22745) sccb: sccb_i2c_port=1[0m
+[0;32mI (22755) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (22795) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (22795) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:76 no person score 232
+[0;32mI (23505) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (23505) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (23515) cam_hal: cam init ok[0m
+[0;32mI (23515) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (23515) sccb: sccb_i2c_port=1[0m
+[0;32mI (23525) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (23565) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (23565) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (24275) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (24275) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (24285) cam_hal: cam init ok[0m
+[0;32mI (24285) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (24285) sccb: sccb_i2c_port=1[0m
+[0;32mI (24295) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (24335) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (24335) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:74 no person score 233
+[0;32mI (25045) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (25045) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (25055) cam_hal: cam init ok[0m
+[0;32mI (25055) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (25055) sccb: sccb_i2c_port=1[0m
+[0;32mI (25065) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (25105) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (25105) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:74 no person score 232
+[0;32mI (25815) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (25815) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (25825) cam_hal: cam init ok[0m
+[0;32mI (25825) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (25825) sccb: sccb_i2c_port=1[0m
+[0;32mI (25835) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (25875) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (25875) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:76 no person score 232
+[0;32mI (26585) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (26585) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (26595) cam_hal: cam init ok[0m
+[0;32mI (26595) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (26595) sccb: sccb_i2c_port=1[0m
+[0;32mI (26605) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (26645) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (26645) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:74 no person score 232
+[0;32mI (27355) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (27355) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (27365) cam_hal: cam init ok[0m
+[0;32mI (27365) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (27365) sccb: sccb_i2c_port=1[0m
+[0;32mI (27375) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (27415) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (27415) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (28125) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (28125) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (28135) cam_hal: cam init ok[0m
+[0;32mI (28135) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (28135) sccb: sccb_i2c_port=1[0m
+[0;32mI (28145) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (28185) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (28185) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (28895) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (28895) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (28905) cam_hal: cam init ok[0m
+[0;32mI (28905) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (28905) sccb: sccb_i2c_port=1[0m
+[0;32mI (28915) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (28955) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (28955) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (29665) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (29665) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (29675) cam_hal: cam init ok[0m
+[0;32mI (29675) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (29675) sccb: sccb_i2c_port=1[0m
+[0;32mI (29685) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (29725) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (29725) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (30435) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (30435) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (30445) cam_hal: cam init ok[0m
+[0;32mI (30445) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (30445) sccb: sccb_i2c_port=1[0m
+[0;32mI (30455) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (30495) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (30495) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:74 no person score 232
+[0;32mI (31205) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (31205) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (31215) cam_hal: cam init ok[0m
+[0;32mI (31215) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (31215) sccb: sccb_i2c_port=1[0m
+[0;32mI (31225) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (31265) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (31265) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:74 no person score 232
+[0;32mI (31975) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (31975) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (31985) cam_hal: cam init ok[0m
+[0;32mI (31985) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (31985) sccb: sccb_i2c_port=1[0m
+[0;32mI (31995) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (32035) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (32035) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (32745) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (32745) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (32755) cam_hal: cam init ok[0m
+[0;32mI (32755) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (32755) sccb: sccb_i2c_port=1[0m
+[0;32mI (32765) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (32805) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (32805) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:75 no person score 232
+[0;32mI (33515) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (33515) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (33525) cam_hal: cam init ok[0m
+[0;32mI (33525) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (33525) sccb: sccb_i2c_port=1[0m
+[0;32mI (33535) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (33575) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (33575) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+
+InitCamera failed
+
+Image capture failed.
+person score:73 no person score 233
+[0;32mI (34285) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;31mE (34285) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;32mI (34295) cam_hal: cam init ok[0m
+[0;32mI (34295) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (34295) sccb: sccb_i2c_port=1[0m
+[0;32mI (34305) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (34345) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)[0m
+[0;31mE (34345) app_camera: Camera init failed with error 0x105[0m
+Camera init failed
+

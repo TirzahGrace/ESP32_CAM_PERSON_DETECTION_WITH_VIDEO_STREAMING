@@ -1,0 +1,280 @@
+.
+├── CMakeLists.txt
+├── LICENSE
+├── README_ESP.md
+├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.31.0
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── TargetDirectories.txt
+│   │   ├── bootloader-complete
+│   │   ├── bootloader.dir
+│   │   ├── clean_additional.cmake
+│   │   ├── cmake.check_cache
+│   │   ├── git-data
+│   │   ├── person_detection.elf.dir
+│   │   ├── pkgRedirects
+│   │   └── rules.ninja
+│   ├── app-flash_args
+│   ├── bootloader
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   ├── bootloader.bin
+│   │   ├── bootloader.elf
+│   │   ├── bootloader.map
+│   │   ├── build.ninja
+│   │   ├── cmake_install.cmake
+│   │   ├── compile_commands.json
+│   │   ├── config
+│   │   ├── config.env
+│   │   ├── esp-idf
+│   │   ├── kconfigs.in
+│   │   ├── kconfigs_projbuild.in
+│   │   ├── project_description.json
+│   │   └── project_elf_src_esp32.c
+│   ├── bootloader-flash_args
+│   ├── bootloader-prefix
+│   │   ├── src
+│   │   └── tmp
+│   ├── build.ninja
+│   ├── cmake_install.cmake
+│   ├── compile_commands.json
+│   ├── config
+│   │   ├── kconfig_menus.json
+│   │   ├── sdkconfig.cmake
+│   │   ├── sdkconfig.h
+│   │   └── sdkconfig.json
+│   ├── config.env
+│   ├── esp-idf
+│   │   ├── CMakeFiles
+│   │   ├── app_trace
+│   │   ├── app_update
+│   │   ├── bootloader
+│   │   ├── bootloader_support
+│   │   ├── bt
+│   │   ├── cmake_install.cmake
+│   │   ├── cmock
+│   │   ├── console
+│   │   ├── cxx
+│   │   ├── driver
+│   │   ├── efuse
+│   │   ├── esp-tls
+│   │   ├── esp32-camera
+│   │   ├── esp_adc
+│   │   ├── esp_app_format
+│   │   ├── esp_bootloader_format
+│   │   ├── esp_coex
+│   │   ├── esp_common
+│   │   ├── esp_driver_ana_cmpr
+│   │   ├── esp_driver_cam
+│   │   ├── esp_driver_dac
+│   │   ├── esp_driver_gpio
+│   │   ├── esp_driver_gptimer
+│   │   ├── esp_driver_i2c
+│   │   ├── esp_driver_i2s
+│   │   ├── esp_driver_isp
+│   │   ├── esp_driver_jpeg
+│   │   ├── esp_driver_ledc
+│   │   ├── esp_driver_mcpwm
+│   │   ├── esp_driver_parlio
+│   │   ├── esp_driver_pcnt
+│   │   ├── esp_driver_ppa
+│   │   ├── esp_driver_rmt
+│   │   ├── esp_driver_sdio
+│   │   ├── esp_driver_sdm
+│   │   ├── esp_driver_sdmmc
+│   │   ├── esp_driver_sdspi
+│   │   ├── esp_driver_spi
+│   │   ├── esp_driver_touch_sens
+│   │   ├── esp_driver_tsens
+│   │   ├── esp_driver_uart
+│   │   ├── esp_driver_usb_serial_jtag
+│   │   ├── esp_eth
+│   │   ├── esp_event
+│   │   ├── esp_gdbstub
+│   │   ├── esp_hid
+│   │   ├── esp_http_client
+│   │   ├── esp_http_server
+│   │   ├── esp_https_ota
+│   │   ├── esp_https_server
+│   │   ├── esp_hw_support
+│   │   ├── esp_lcd
+│   │   ├── esp_local_ctrl
+│   │   ├── esp_mm
+│   │   ├── esp_netif
+│   │   ├── esp_netif_stack
+│   │   ├── esp_partition
+│   │   ├── esp_phy
+│   │   ├── esp_pm
+│   │   ├── esp_psram
+│   │   ├── esp_ringbuf
+│   │   ├── esp_rom
+│   │   ├── esp_system
+│   │   ├── esp_timer
+│   │   ├── esp_vfs_console
+│   │   ├── esp_wifi
+│   │   ├── espcoredump
+│   │   ├── esptool_py
+│   │   ├── fatfs
+│   │   ├── freertos
+│   │   ├── hal
+│   │   ├── heap
+│   │   ├── http_parser
+│   │   ├── idf_test
+│   │   ├── ieee802154
+│   │   ├── json
+│   │   ├── log
+│   │   ├── lwip
+│   │   ├── main
+│   │   ├── mbedtls
+│   │   ├── mqtt
+│   │   ├── newlib
+│   │   ├── nvs_flash
+│   │   ├── nvs_sec_provider
+│   │   ├── openthread
+│   │   ├── partition_table
+│   │   ├── perfmon
+│   │   ├── protobuf-c
+│   │   ├── protocol_examples_common
+│   │   ├── protocomm
+│   │   ├── pthread
+│   │   ├── sdmmc
+│   │   ├── soc
+│   │   ├── spi_flash
+│   │   ├── spiffs
+│   │   ├── tcp_transport
+│   │   ├── tfmicro
+│   │   ├── ulp
+│   │   ├── unity
+│   │   ├── usb
+│   │   ├── vfs
+│   │   ├── wear_levelling
+│   │   ├── wifi_provisioning
+│   │   ├── wpa_supplicant
+│   │   └── xtensa
+│   ├── flash_app_args
+│   ├── flash_args
+│   ├── flash_args.in
+│   ├── flash_bootloader_args
+│   ├── flash_project_args
+│   ├── flasher_args.json
+│   ├── kconfigs.in
+│   ├── kconfigs_projbuild.in
+│   ├── ldgen_libraries
+│   ├── ldgen_libraries.in
+│   ├── log
+│   │   ├── idf_py_stderr_output_18608
+│   │   ├── idf_py_stderr_output_19116
+│   │   ├── idf_py_stderr_output_24378
+│   │   ├── idf_py_stderr_output_32318
+│   │   ├── idf_py_stderr_output_38919
+│   │   ├── idf_py_stderr_output_39267
+│   │   ├── idf_py_stderr_output_43084
+│   │   ├── idf_py_stderr_output_48512
+│   │   ├── idf_py_stderr_output_48777
+│   │   ├── idf_py_stderr_output_48948
+│   │   ├── idf_py_stderr_output_49422
+│   │   ├── idf_py_stderr_output_49925
+│   │   ├── idf_py_stderr_output_57719
+│   │   ├── idf_py_stderr_output_57867
+│   │   ├── idf_py_stderr_output_58120
+│   │   ├── idf_py_stderr_output_58623
+│   │   ├── idf_py_stderr_output_65370
+│   │   ├── idf_py_stderr_output_68458
+│   │   ├── idf_py_stderr_output_69144
+│   │   ├── idf_py_stderr_output_69399
+│   │   ├── idf_py_stderr_output_69770
+│   │   ├── idf_py_stderr_output_70131
+│   │   ├── idf_py_stderr_output_70387
+│   │   ├── idf_py_stderr_output_70531
+│   │   ├── idf_py_stderr_output_71805
+│   │   ├── idf_py_stderr_output_74530
+│   │   ├── idf_py_stderr_output_78849
+│   │   ├── idf_py_stderr_output_79216
+│   │   ├── idf_py_stderr_output_83404
+│   │   ├── idf_py_stderr_output_83548
+│   │   ├── idf_py_stderr_output_83917
+│   │   ├── idf_py_stdout_output_18608
+│   │   ├── idf_py_stdout_output_19116
+│   │   ├── idf_py_stdout_output_24378
+│   │   ├── idf_py_stdout_output_32318
+│   │   ├── idf_py_stdout_output_38919
+│   │   ├── idf_py_stdout_output_39267
+│   │   ├── idf_py_stdout_output_43084
+│   │   ├── idf_py_stdout_output_48512
+│   │   ├── idf_py_stdout_output_48777
+│   │   ├── idf_py_stdout_output_48948
+│   │   ├── idf_py_stdout_output_49422
+│   │   ├── idf_py_stdout_output_49925
+│   │   ├── idf_py_stdout_output_57719
+│   │   ├── idf_py_stdout_output_57867
+│   │   ├── idf_py_stdout_output_58120
+│   │   ├── idf_py_stdout_output_58623
+│   │   ├── idf_py_stdout_output_65370
+│   │   ├── idf_py_stdout_output_68458
+│   │   ├── idf_py_stdout_output_69144
+│   │   ├── idf_py_stdout_output_69399
+│   │   ├── idf_py_stdout_output_69770
+│   │   ├── idf_py_stdout_output_70131
+│   │   ├── idf_py_stdout_output_70387
+│   │   ├── idf_py_stdout_output_70531
+│   │   ├── idf_py_stdout_output_71805
+│   │   ├── idf_py_stdout_output_74530
+│   │   ├── idf_py_stdout_output_78849
+│   │   ├── idf_py_stdout_output_79216
+│   │   ├── idf_py_stdout_output_83404
+│   │   ├── idf_py_stdout_output_83548
+│   │   └── idf_py_stdout_output_83917
+│   ├── partition-table-flash_args
+│   ├── partition_table
+│   │   └── partition-table.bin
+│   ├── person_detection.bin
+│   ├── person_detection.elf
+│   ├── person_detection.map
+│   ├── project_description.json
+│   ├── project_elf_src_esp32.c
+│   └── x509_crt_bundle.S
+├── components
+│   ├── esp32-camera
+│   │   ├── CMakeLists.txt
+│   │   ├── Kconfig
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── conversions
+│   │   ├── driver
+│   │   ├── examples
+│   │   ├── idf_component.yml
+│   │   ├── library.json
+│   │   ├── sensors
+│   │   ├── target
+│   │   └── test
+│   └── tfmicro
+│       ├── CMakeLists.txt
+│       ├── tensorflow
+│       └── third_party
+├── dependencies.lock
+├── directories.txt
+├── main
+│   ├── CMakeLists.txt
+│   ├── Kconfig.projbuild
+│   ├── detection_responder.cc
+│   ├── detection_responder.h
+│   ├── esp
+│   │   ├── app_camera_esp.c
+│   │   ├── app_camera_esp.h
+│   │   ├── image_provider.cc
+│   │   └── main.cc
+│   ├── image_provider.h
+│   ├── main_functions.cc
+│   ├── main_functions.h
+│   ├── model_settings.cc
+│   ├── model_settings.h
+│   ├── person_detect_model_data.h
+│   └── person_model_grayscale
+│       └── person_detect_model_data.cc
+├── sdkconfig
+├── sdkconfig.defaults
+└── sdkconfig.old
+
+138 directories, 140 files

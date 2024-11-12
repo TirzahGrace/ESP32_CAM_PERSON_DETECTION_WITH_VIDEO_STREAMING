@@ -1,0 +1,441 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:7524
+load:0x40078000,len:16552
+load:0x40080400,len:4
+load:0x40080404,len:4312
+entry 0x4008065c
+[0;32mI (29) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Nov  9 2024 15:17:41[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (34) boot: chip revision: v3.1[0m
+[0;32mI (38) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (43) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (48) boot.esp32: SPI Mode       : QIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (57) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (66) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (73) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (81) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (88) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (96) boot: End of partition table[0m
+[0;32mI (100) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=4a1f4h (303604) map[0m
+[0;32mI (186) esp_image: segment 1: paddr=0005a21c vaddr=3ffb0000 size=034a8h ( 13480) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0005d6cc vaddr=40080000 size=0294ch ( 10572) load[0m
+[0;32mI (195) esp_image: segment 3: paddr=00060020 vaddr=400d0020 size=29534h (169268) map[0m
+[0;32mI (244) esp_image: segment 4: paddr=0008955c vaddr=4008294c size=0d968h ( 55656) load[0m
+[0;32mI (269) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (269) boot: Disabling RNG early entropy source...[0m
+[0;32mI (281) quad_psram: This chip is ESP32-D0WD[0m
+[0;32mI (282) esp_psram: Found 2MB PSRAM device[0m
+[0;32mI (282) esp_psram: Speed: 40MHz[0m
+[0;32mI (285) esp_psram: PSRAM initialized, cache is in low/high (2-core) mode.[0m
+[0;32mI (293) cpu_start: Multicore app[0m
+[0;32mI (727) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (735) cpu_start: Pro cpu start user code[0m
+[0;32mI (735) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (735) app_init: Application information:[0m
+[0;32mI (738) app_init: Project name:     person_detection[0m
+[0;32mI (744) app_init: App version:      v1.12.1-34232-gf728870ca4-dirty[0m
+[0;32mI (751) app_init: Compile time:     Nov  9 2024 16:02:02[0m
+[0;32mI (757) app_init: ELF file SHA256:  d9b525def...[0m
+[0;32mI (762) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (767) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (772) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (777) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (782) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (789) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (795) heap_init: At 3FFCB410 len 00014BF0 (82 KiB): DRAM[0m
+[0;32mI (801) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (808) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (814) heap_init: At 400902B4 len 0000FD4C (63 KiB): IRAM[0m
+[0;32mI (820) esp_psram: Adding pool of 2048K of PSRAM memory to heap allocator[0m
+[0;32mI (828) spi_flash: detected chip: generic[0m
+[0;32mI (832) spi_flash: flash io: qio[0m
+[0;33mW (836) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (847) main_task: Started on CPU0[0m
+[0;32mI (857) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (857) main_task: Calling app_main()[0m
+8 bytes lost due to alignment. To avoid this loss, please make sure the tensor_arena is 16 bytes aligned.
+[0;32mI (877) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (887) cam_hal: cam init ok[0m
+[0;32mI (887) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (887) sccb: sccb_i2c_port=1[0m
+[0;32mI (897) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (927) camera: Detected camera at address=0x30[0m
+[0;32mI (927) camera: Detected OV2640 camera[0m
+[0;32mI (927) camera: Camera PID=0x26 VER=0x42 MIDL=0x7f MIDH=0xa2[0m
+[0;32mI (997) esp32 ll_cam: node_size: 3072, nodes_per_line: 1, lines_per_node: 4, dma_half_buffer_min:  3072, dma_half_buffer: 12288,lines_per_half_buffer: 16, dma_buffer_size: 24576, image_size: 18432[0m
+[0;32mI (1007) cam_hal: buffer_size: 24576, half_buffer_size: 12288, node_buffer_size: 3072, node_cnt: 8, total_cnt: 1[0m
+[0;32mI (1017) cam_hal: Allocating 9216 Byte frame buffer in PSRAM[0m
+[0;32mI (1027) cam_hal: cam config ok[0m
+[0;32mI (1027) ov2640: Set PLL: clk_2x: 0, clk_div: 3, pclk_auto: 1, pclk_div: 8[0m
+Camera Initialized
+
+Image Captured
+
+person score:162 no person score 172
+Image Captured
+
+person score:127 no person score 200
+Image Captured
+
+person score:211 no person score 119
+Image Captured
+
+person score:177 no person score 160
+Image Captured
+
+person score:156 no person score 179
+Image Captured
+
+person score:202 no person score 129
+Image Captured
+
+person score:208 no person score 118
+Image Captured
+
+person score:190 no person score 144
+Image Captured
+
+person score:193 no person score 140
+Image Captured
+
+person score:174 no person score 161
+Image Captured
+
+person score:202 no person score 129
+Image Captured
+
+person score:212 no person score 112
+Image Captured
+
+person score:200 no person score 133
+Image Captured
+
+person score:114 no person score 210
+Image Captured
+
+person score:142 no person score 191
+Image Captured
+
+person score:140 no person score 185
+Image Captured
+
+person score:161 no person score 169
+Image Captured
+
+person score:233 no person score 62
+Image Captured
+
+person score:205 no person score 117
+Image Captured
+
+person score:118 no person score 207
+Image Captured
+
+person score:253 no person score 41
+Image Captured
+
+person score:156 no person score 174
+Image Captured
+
+person score:200 no person score 131
+Image Captured
+
+person score:237 no person score 60
+Image Captured
+
+person score:175 no person score 157
+Image Captured
+
+person score:254 no person score 40
+Image Captured
+
+person score:243 no person score 53
+Image Captured
+
+person score:139 no person score 191
+Image Captured
+
+person score:100 no person score 222
+Image Captured
+
+person score:149 no person score 184
+Image Captured
+
+person score:181 no person score 152
+Image Captured
+
+person score:182 no person score 150
+Image Captured
+
+person score:181 no person score 150
+Image Captured
+
+person score:207 no person score 116
+Image Captured
+
+person score:175 no person score 159
+Image Captured
+
+person score:162 no person score 173
+Image Captured
+
+person score:137 no person score 196
+Image Captured
+
+person score:147 no person score 188
+Image Captured
+
+person score:128 no person score 201
+Image Captured
+
+person score:161 no person score 172
+Image Captured
+
+person score:141 no person score 192
+Image Captured
+
+person score:127 no person score 202
+Image Captured
+
+person score:126 no person score 202
+Image Captured
+
+person score:188 no person score 141
+Image Captured
+
+person score:192 no person score 137
+Image Captured
+
+person score:128 no person score 193
+Image Captured
+
+person score:159 no person score 178
+Image Captured
+
+person score:56 no person score 242
+Image Captured
+
+person score:118 no person score 207
+Image Captured
+
+person score:119 no person score 202
+Image Captured
+
+person score:70 no person score 235
+Image Captured
+
+person score:128 no person score 204
+Image Captured
+
+person score:63 no person score 238
+Image Captured
+
+person score:127 no person score 201
+Image Captured
+
+person score:146 no person score 184
+Image Captured
+
+person score:103 no person score 218
+Image Captured
+
+person score:89 no person score 227
+Image Captured
+
+person score:144 no person score 187
+Image Captured
+
+person score:121 no person score 202
+Image Captured
+
+person score:82 no person score 229
+Image Captured
+
+person score:128 no person score 199
+Image Captured
+
+person score:43 no person score 246
+Image Captured
+
+person score:68 no person score 235
+Image Captured
+
+person score:99 no person score 217
+Image Captured
+
+person score:104 no person score 210
+Image Captured
+
+person score:148 no person score 180
+Image Captured
+
+person score:89 no person score 225
+Image Captured
+
+person score:102 no person score 218
+Image Captured
+
+person score:129 no person score 194
+Image Captured
+
+person score:93 no person score 220
+Image Captured
+
+person score:92 no person score 222
+Image Captured
+
+person score:150 no person score 180
+Image Captured
+
+person score:126 no person score 200
+Image Captured
+
+person score:95 no person score 224
+Image Captured
+
+person score:83 no person score 230
+Image Captured
+
+person score:47 no person score 248
+Image Captured
+
+person score:118 no person score 204
+Image Captured
+
+person score:135 no person score 190
+Image Captured
+
+person score:187 no person score 145
+Image Captured
+
+person score:234 no person score 75
+Image Captured
+
+person score:236 no person score 68
+Image Captured
+
+person score:220 no person score 98
+Image Captured
+
+person score:213 no person score 107
+Image Captured
+
+person score:216 no person score 102
+Image Captured
+
+person score:190 no person score 139
+Image Captured
+
+person score:163 no person score 165
+Image Captured
+
+person score:185 no person score 148
+Image Captured
+
+person score:155 no person score 169
+Image Captured
+
+person score:194 no person score 133
+Image Captured
+
+person score:78 no person score 230
+Image Captured
+
+person score:119 no person score 200
+Image Captured
+
+person score:115 no person score 204
+Image Captured
+
+person score:127 no person score 192
+Image Captured
+
+person score:133 no person score 195
+Image Captured
+
+person score:204 no person score 124
+Image Captured
+
+person score:194 no person score 135
+Image Captured
+
+person score:187 no person score 143
+Image Captured
+
+person score:201 no person score 124
+Image Captured
+
+person score:184 no person score 145
+Image Captured
+
+person score:207 no person score 115
+Image Captured
+
+person score:212 no person score 107
+Image Captured
+
+person score:211 no person score 108
+Image Captured
+
+person score:225 no person score 91
+Image Captured
+
+person score:182 no person score 148
+Image Captured
+
+person score:106 no person score 216
+Image Captured
+
+person score:196 no person score 130
+Image Captured
+
+person score:108 no person score 210
+Image Captured
+
+person score:199 no person score 132
+Image Captured
+
+person score:151 no person score 178
+Image Captured
+
+person score:89 no person score 224
+Image Captured
+
+person score:125 no person score 200
+Image Captured
+
+person score:98 no person score 218
+Image Captured
+
+person score:111 no person score 210
+Image Captured
+
+person score:139 no person score 193
+Image Captured
+
+person score:152 no person score 182
+Image Captured
+
+person score:123 no person score 204
+Image Captured
+
+person score:74 no person score 235
+Image Captured
+
+person score:83 no person score 230
+Image Captured
+
+person score:197 no person score 127
+Image Captured
+
+person score:156 no person score 181
+Image Captured
+

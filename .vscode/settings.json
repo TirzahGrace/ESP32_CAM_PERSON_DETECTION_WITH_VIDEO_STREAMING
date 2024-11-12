@@ -1,0 +1,4 @@
+{
+  "idf.port": "/dev/tty.usbserial-A50285BI",
+  "idf.adapterTargetName": "esp32"
+}
