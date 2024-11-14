@@ -1,4 +1,9 @@
 {
   "idf.port": "/dev/tty.usbserial-A50285BI",
-  "idf.adapterTargetName": "esp32"
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "app_camera_esp.h": "c",
+    "esp_camera.h": "c",
+    "connect_wifi.h": "c"
+  }
 }
